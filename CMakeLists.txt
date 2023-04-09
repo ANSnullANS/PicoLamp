@@ -20,7 +20,6 @@ add_executable(PicoLamp
 
 target_include_directories(PicoLamp PRIVATE
         ${CMAKE_CURRENT_LIST_DIR}
-        ${CMAKE_CURRENT_LIST_DIR}/dhcpserver
 )
 
 pico_enable_stdio_usb(PicoLamp 1)
